@@ -4,14 +4,24 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url(../img/Sem\ Título-1.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 }
 
 .content {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #e6e4e4;
+    box-shadow: 5px 10px 5px 0 #1617185d;
+}
+
+.content h1{
+    font-family:'Pokemon Solid', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(255, 0, 0);
+    letter-spacing: 8px;
 }
 
 @media screen and (min-width: 992px) {
